@@ -20,18 +20,17 @@
 
 - When `evidence_mode = "strict"`:
   - The summarizer must **only** include:
-    - Claims
-    - Equations
-    - Results
-    - Definitions
+    - Claims  
+    - Equations  
+    - Results  
+    - Definitions  
     that explicitly appear in the provided source text.
   - The summarizer must **not**:
-    - Infer new results
-    - Invent equations
-    - Add citations or references not included in the paper
+    - Infer new results  
+    - Invent equations  
+    - Add citations or references not included in the paper  
   - If the source text does not provide enough detail to summarize a section under strict mode, output:
     - `"The source text does not provide enough detail to summarize this section in strict evidence mode."`
-
 
 ## Section Warning Messages
 
